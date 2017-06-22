@@ -45,6 +45,8 @@ namespace gmail_oauth2
             client.Credentials = new NetworkCredential("from@gmail.com", "password or oauth2.0 App password");
             client.EnableSsl = true;
             client.DeliveryMethod = SmtpDeliveryMethod.Network;
+            
+            client.Send(msg);
         }
 
         static string OAuth2()
