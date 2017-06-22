@@ -27,7 +27,7 @@ namespace gmail_oauth2
             //text
             msg.Body = "test text";
 
-            //Attachment
+            //Attachments
             Attachment attachment = new Attachment("your attachment path");
 
             //attachment.ContentType = new ContentType("image/png");
